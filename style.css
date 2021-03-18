@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contianer{
+    width: 930px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #fff;
+    border-radius: 20px ;
+    margin: 25px;
+}
+.img-contianer{
+    position: relative;
+    padding: 50px 0;
+    z-index: 0;
+}
+.s-img{
+    position: absolute;
+    top: -300px;
+    left: -580px;
+    z-index: -1;
+}
+.out{
+    position: absolute;
+    top: 190px;
+    left: -90px;
+}
+.in{
+    overflow: hidden;
+}
+.in picture {
+    margin-left: -80px;
+}
+.faq-contianer{
+    padding: 50px;
+    padding-bottom: 20px;
+}
+.faq-contianer h2{
+    color: hsl(238, 29%, 16%);
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.faq-contianer > div {
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+
+}
+.faq-contianer span{
+    float: right;
+    transition: 0.3s;
+}
+label{
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: 15px 15px 15px 0;
+    color: hsl(237, 12%, 33%);
+    transition: 0.3s;
+}
+label:hover{
+    color: hsl(14, 88%, 65%);
+}
+input{
+    display: none;
+}
+.content{
+    padding: 5px 0;
+    color: hsl(240, 6%, 50%);
+    font-size: 14px;
+    overflow: hidden;
+    line-height: 19px;
+    height: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+input:checked ~ .content{
+    height: 64px;
+    opacity: 1;
+}
+input:checked ~ label{
+    color: hsl(238, 29%, 16%);
+    font-weight: 700;
+}
+input:checked ~ label span{
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+
+@media(max-width:376px ){
+    .contianer{
+        max-width: 450px;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 120px ;
+    }
+    .img-contianer{
+        padding: 0;
+        margin: 0 100px;
+        margin-top: -110px ;
+    }
+    .in{
+        overflow: visible;
+    }
+    .out{
+        display: none;
+    }
+    .s-img{
+        top: 100px;
+        left: -50px;
+    }
+    .faq-contianer h2{
+        text-align: center;
+    }
+    .faq-contianer{
+        padding: 50px 20px 20px 20px;
+        padding-bottom: 50px;
+    } 
+    label{
+        display: block;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+        padding: 15px 0;
+        color: hsl(237, 12%, 33%);
+        transition: 0.3s;
+        font-size: 15px;
+    } 
+    .content{
+        width: 100%;
+        line-height: 19px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+}
+
+
+.attribution {
+
+     font-size: 11px; 
+    position: absolute;
+    text-align: center;
+    bottom:0 ;
+    margin-bottom: 10px;
+     }
+.attribution a { 
+    color: hsl(14, 88%, 65%); 
+}
