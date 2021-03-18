@@ -42,8 +42,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/faq-accordion-card-Eglk9szXg)
+- Live Site URL: [Add live site URL here](https://vibrant-davinci-da4e19.netlify.app/)
 
 ## My process
 
@@ -82,9 +82,9 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+- Frontend Mentor - [@alphazinoDz](https://www.frontendmentor.io/profile/alphazinoDz)
+
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
